@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply m-0 p-0 box-border;
+  }
+  a {
+    @apply text-black no-underline;
+  }
+}
+
+@layer components {
+  .category-btn:hover {
+    @apply bg-red-500 text-white;
+  }
+
+  .category-btn:hover span {
+    @apply text-white;
+  }
+
+  .react-player {
+    @apply max-[600px]:h-[45vh] h-[77vh] w-full;
+  }
+
+  .search-bar {
+    @apply border-none outline-none max-[600px]:w-[200px] w-[350px];
+  }
+
+  .category-btn {
+    @apply font-bold capitalize flex items-center justify-start cursor-pointer bg-transparent outline-none border-none py-2 px-6  max-[900px]:m-[10px] my-[10px] rounded-2xl transition duration-300 ease-in-out;
+  }
+
+  .copyright {
+    @apply max-[900px]:hidden;
+  }
+
+  .scroll-horizontal {
+    @apply max-[600px]:overflow-auto;
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 113, 113);
+  border-radius: 10px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
