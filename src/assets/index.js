@@ -10,6 +10,8 @@ import OnDemeandVideo from "./ondemand_video.svg";
 import School from "./school.svg";
 import SportEsport from "./sports_esports.svg";
 import TheaterComendy from "./theater_comedy.svg";
+import SearchIcon from "./search.svg";
+import Logo from "./Logo.png";
 
 export {
   CheckRoom,
@@ -24,4 +26,6 @@ export {
   School,
   SportEsport,
   TheaterComendy,
+  Logo,
+  SearchIcon,
 };
