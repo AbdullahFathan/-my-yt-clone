@@ -12,14 +12,14 @@ const App = () => {
     <BrowserRouter>
       <div>
         <Navbar />
-      </div>
 
-      <Routes>
-        <Route path="/" exact element={<Feed />} />
-        <Route path="/video/:id" element={<VideoDetail />} />
-        <Route path="/channel/:id" element={<ChannelDetail />} />
-        <Route path="/search/:searchTerm" element={<SearchFeed />} />
-      </Routes>
+        <Routes>
+          <Route path="/" exact element={<Feed />} />
+          <Route path="/video/:id" element={<VideoDetail />} />
+          <Route path="/channel/:id" element={<ChannelDetail />} />
+          <Route path="/search/:searchTerm" element={<SearchFeed />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 };

@@ -1,0 +1,32 @@
+import {
+  CheckRoom,
+  Code,
+  DeveloperMode,
+  FaceRetouchingNatural,
+  FitnessCenter,
+  Home,
+  LiveTv,
+  MusicNote,
+  OnDemeandVideo,
+  School,
+  SportEsport,
+  TheaterComendy,
+} from "../assets";
+
+export const categories = [
+  { name: "New", icon: Home },
+  { name: "Code", icon: Code },
+  { name: "ReactJS", icon: Code },
+  { name: "NextJS", icon: Code },
+  { name: "Music", icon: MusicNote },
+  { name: "Education", icon: School },
+  { name: "Movie", icon: OnDemeandVideo },
+  { name: "Gaming", icon: SportEsport },
+  { name: "Live", icon: LiveTv },
+  { name: "Sport", icon: FitnessCenter },
+  { name: "Fashion", icon: CheckRoom },
+  { name: "Beauty", icon: FaceRetouchingNatural },
+  { name: "Comedy", icon: TheaterComendy },
+  { name: "Gym", icon: FitnessCenter },
+  { name: "Crypto", icon: DeveloperMode },
+];
