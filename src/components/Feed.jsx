@@ -12,9 +12,9 @@ const Feed = () => {
   }, [selectedCategory]);
 
   return (
-    <section className="flex md:flex-row flex-col ">
+    <section className="flex md:flex-row flex-col h-max">
       {/* //* SideBar */}
-      <div className="h-auto md:h-92vh border-r-2 border-[#3d3d3d] px-0 md:px-2">
+      <div className=" border-r-2 border-[#3d3d3d] px-0 md:px-2 ">
         <Sidebar
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
@@ -25,8 +25,8 @@ const Feed = () => {
       </div>
 
       {/* //* Yt Video  */}
-      <div className="flex-[2] h-[90vh] overflow-y-auto">
-        <h4 className="text-white font-bold mb-2 ml-2 text-4xl">
+      <div className="flex-[2]  overflow-y-auto m-5 ">
+        <h4 className="text-white font-bold mb-4  text-4xl">
           {selectedCategory} <span className="text-[#FC1503]">videos</span>
         </h4>
         <Videos videos={videos} />

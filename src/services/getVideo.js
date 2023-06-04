@@ -4,7 +4,7 @@ const Base_Url = "https://youtube-v31.p.rapidapi.com";
 
 const options = {
   params: {
-    maxResults: "50",
+    maxResults: "18",
   },
   headers: {
     "X-RapidAPI-Key": import.meta.env.VITE_RAPID_API_KEY,
