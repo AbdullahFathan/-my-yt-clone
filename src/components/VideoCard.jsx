@@ -7,12 +7,12 @@ const VideoCard = ({
   },
 }) => {
   return (
-    <div className="w-[320px] xs:w-[100%] border-none rounded-none ">
+    <div className="w-full sm:w-[358px] md:w-[320px]  border-none rounded-none ">
       <Link to={`/video/${videoId}`}>
         <img
           src={snippet?.thumbnails?.high?.url}
           alt="thumbnails"
-          className="h-[180px] w-[358px] object-cover"
+          className="h-[180px] w-full sm:w-[358px] md:w-[320px]  object-cover"
         />
       </Link>
       <div className="bg-[#1e1e1e] h-[105px] ">

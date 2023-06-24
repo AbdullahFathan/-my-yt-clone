@@ -42,7 +42,7 @@ const VideoDetail = () => {
       <div className="flex flex-col md:flex-row">
         <div className="flex-1">
           {/* Video PLayer */}
-          <div className="w-full sticky top-[86px]">
+          <div className="w-full sticky top-[86px] px-3">
             <ReactPlayer
               url={`https://www.youtube.com/watch?v=${id}`}
               className="react-player"
